@@ -4,6 +4,9 @@
  */
 package inventario;
 
+import inventario.model.Item;
+import inventario.model.Mercado;
+
 /**
  *
  * @author Pichau
@@ -14,7 +17,14 @@ public class Inventario {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+                //mercado
+        Mercado melhorpreco = new Mercado("Melhor Preço");
+        
+        //itens
+        Item achocolatado = new Item(01,"Achocolatado",7.60,25);
+        melhorpreco.adicionarItem(achocolatado);
+        
+        
     }
     
 }
