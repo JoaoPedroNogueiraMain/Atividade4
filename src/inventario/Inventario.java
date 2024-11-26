@@ -23,6 +23,7 @@ public class Inventario {
         //itens
         Item achocolatado = new Item(01,"Achocolatado",7.60,25);
         melhorpreco.adicionarItem(achocolatado);
+        melhorpreco.leitura();
         
         
     }

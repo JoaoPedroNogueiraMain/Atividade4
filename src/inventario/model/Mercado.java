@@ -71,7 +71,7 @@ public class Mercado {
     public void adicionarItem (Item item){
         try{
         itens.add(item);
-        OutputStream os = new FileOutputStream("produtos",true);
+        OutputStream os = new FileOutputStream("produtos.txt",true);
         OutputStreamWriter osw = new OutputStreamWriter(os);
         BufferedWriter bw = new BufferedWriter(osw);
         
